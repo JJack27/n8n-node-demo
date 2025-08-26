@@ -70,7 +70,6 @@ export class RemoveColumns implements INodeType {
 			result.push(newItem);
 		}
 
-		console.log(result)
 		return [result];
 	}
 }
